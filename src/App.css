@@ -1,0 +1,69 @@
+.app {
+  width: 98%;
+  max-width: 690px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ADD TASK */
+.add-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-box input {
+  flex: 1;
+  padding: 10px;
+}
+
+/* TASK LIST */
+.task-list {
+  list-style: none;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #f3f4f6;
+  border-radius: 6px;
+}
+
+/* TASK TEXT */
+.task {
+  flex: 1;
+  color: black;
+}
+
+.task.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* EDIT INPUT */
+.edit-input {
+  flex: 1;
+  padding: 6px;
+}
+
+/* BUTTONS */
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.delete {
+  background: #dc2626;
+}
